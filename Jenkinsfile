@@ -24,6 +24,11 @@ pipeline {
                 }
             }
         }
+         stage('deploy to dev k8s'){
+            steps{
+                sh 'echo "ffadsf"'
+            }
+        }
         
     }
 }
