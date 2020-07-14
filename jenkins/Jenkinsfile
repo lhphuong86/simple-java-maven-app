@@ -26,5 +26,10 @@ pipeline {
                 sh './jenkins/scripts/deliver.sh'
             }
         }
+        stage('deploy to dev k8s'){
+            steps{
+                sh 'echo "ffadsf"'
+            }
+        }
     }
 }
